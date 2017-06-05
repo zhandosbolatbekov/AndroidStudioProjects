@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Контакт</string>
+    <string name="hint_email">Почта</string>
+    <string name="hint_name">Имя</string>
+    <string name="hint_last_name">Фамилия</string>
+    <string name="hint_phone_number">Номер телефона</string>
+    <string name="button_new_contact">Создать контакт</string>
+
+    <string name="msg_name">%s</string>
+    <string name="msg_last_name">%s</string>
+    <string name="msg_email">%s</string>
+    <string name="msg_phone_number">%s</string>
+</resources>
