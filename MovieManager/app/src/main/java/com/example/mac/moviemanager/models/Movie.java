@@ -80,4 +80,17 @@ public class Movie implements Serializable {
     public void setBackdropPath(String backdropPath) {
         this.backdropPath = backdropPath;
     }
+
+    @Override
+    public String toString() {
+        return "Movie{" +
+                "id='" + id + '\'' +
+                ", title='" + title + '\'' +
+                ", overview='" + overview + '\'' +
+                ", voteAverage=" + voteAverage +
+                ", voteCount=" + voteCount +
+                ", posterPath='" + posterPath + '\'' +
+                ", backdropPath='" + backdropPath + '\'' +
+                '}';
+    }
 }
