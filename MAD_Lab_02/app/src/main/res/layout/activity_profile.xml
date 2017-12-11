@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.zhandos.mad_lab_02.ProfileActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.makeramen.roundedimageview.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profileImageView"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="32dp"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            app:riv_corner_radius="10dip"
+            app:riv_border_width="1dip"
+            app:riv_border_color="#333333"
+            app:riv_mutate_background="true" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="16dp"
+            android:layout_toEndOf="@+id/profileImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp">
+            <TextView
+                android:id="@+id/lastNameTV"
+                android:textColor="@color/colorName"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+            <TextView
+                android:id="@+id/firstNameTV"
+                android:textColor="@color/colorName"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="32dp"
+            android:text="Telephone"
+            android:textColor="@color/colorPrimary"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <RelativeLayout
+            android:layout_marginLeft="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:id="@+id/mobileIV"
+                android:src="@drawable/telephone_icon"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/mobileLabelTV"
+                android:text="Mobile"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_toEndOf="@+id/mobileIV"
+                android:layout_width="100dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/mobileTV"
+                android:text="+77774074100"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="32dp"
+            android:text="emails"
+            android:textColor="@color/colorPrimary"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <RelativeLayout
+            android:layout_marginLeft="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:id="@+id/emailIV"
+                android:src="@drawable/email_icon_5"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/emailLabelTV"
+                android:text="Work"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_toEndOf="@+id/emailIV"
+                android:layout_width="100dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/emailTV"
+                android:text="zhabo.fm@gmail.com"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginLeft="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:id="@+id/email2IV"
+                android:src="@drawable/email_icon_5"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/emailLabel2TV"
+                android:text="Personal"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_toEndOf="@+id/email2IV"
+                android:layout_width="100dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/email2TV"
+                android:text="jab_9777@mail.ru"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="32dp"
+            android:text="Addresses"
+            android:textColor="@color/colorPrimary"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+        <RelativeLayout
+            android:layout_marginLeft="32dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:id="@+id/homeIV"
+                android:src="@drawable/address_icon"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/homeAddressLabelTV"
+                android:text="Home"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_toEndOf="@+id/homeIV"
+                android:layout_width="100dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:id="@+id/addressTV"
+                android:text="Almaty, Mamyr 2"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="32dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <RadioButton
+            android:id="@+id/profile1RB"
+            android:text="Profile 1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/profile2RB"
+            android:text="Profile 2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/profile3RB"
+            android:text="Profile 3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </RadioGroup>
+</LinearLayout>
